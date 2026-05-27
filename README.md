@@ -1,73 +1,33 @@
-# React + TypeScript + Vite
+# Eco Elan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cleaner home shouldn't come at the cost of your health or the planet. Eco Elan is a professional residential and commercial cleaning service across Toronto and the GTA, built with 100% plant-based, non-toxic products that actually work.
 
-Currently, two official plugins are available:
+We clean homes. We clean offices. We make spaces healthier—for you, your family, your pets, and your customers. No harsh chemicals. No synthetic fragrances. No compromise.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What We Do
 
-## React Compiler
+**Residential Cleaning**
+- Standard recurring maintenance
+- Deep cleans for buildup and hard-to-reach spots
+- Move-in and move-out deep cleans
+- Airbnb turnover service for hosts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Commercial**
+- Office and workplace cleaning
+- Custom schedules to fit your operations
+- Healthier workspaces for your team
 
-## Expanding the ESLint configuration
+**Subscriptions**
+We offer weekly, bi-weekly, and monthly plans—all with the same eco-safe products and attention to detail. Pick what works for your home.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Why Eco Elan
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+We use only plant-based, biodegradable products that are safe for kids, pets, and anyone with sensitivities. Our team is trained, professional, and reliable. And if you're not happy with your clean, we'll come back and re-clean at no charge—no questions asked.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Service Area
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Toronto • Mississauga • Brampton • Etobicoke • North York • Scarborough • Vaughan • Markham • Richmond Hill • Oakville • Burlington • Ajax • Whitby
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tech
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Built with React, TypeScript, and Vite for a fast, responsive booking and service experience.
